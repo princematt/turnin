@@ -1,0 +1,116 @@
+<html>
+
+<head>
+
+
+    <title>
+        SOLUTION
+    </title>
+
+    <style>
+        .load-btn {
+
+            margin-top: 16px;
+
+            background-color: blue;
+
+            color: white;
+
+            font-weight: bold;
+
+            padding: 8px;
+
+            border-radius: 8px;
+
+            border-color: blue;
+        }
+
+        .load-btn:hover {
+
+            opacity: .75;
+
+        }
+
+        .project-name {
+
+            font-weight: "bold";
+
+        }
+
+        #result-box {
+
+            border-radius: 8px;
+
+            border: blue 2px dashed;
+
+            margin-top: 16px;
+
+            padding: 16px;
+
+            display: none;
+
+        }
+
+
+        .result-title {
+
+            font-size: 24px;
+
+            margin-top: 4px;
+
+        }
+
+        .project-row {
+
+            margin-top: 16px;
+
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+
+    <div style="width:100%; max-width:800px; margin: 0 auto; margin-top: 32px;">
+
+        <h2><b>Hello, this is matt </b></h2>
+
+        <p style="margin-top: 4px;">Click the button below to open a file</p>
+
+        <button id="upload-btn" class="load-btn">CLICK TO LOAD PROJECT</button>
+
+        <input multiple id="file-form" type="file" style="display: none;" accept=".txt" />
+
+        <div id="result-box">
+
+
+            <!-- <div class="project-row">
+
+                <h3 class="result-title">Days and time spent on project TimeLogCarbon</h3>
+
+                <h4>Days: 12 days</h4>
+
+                <h4>Total time spent: 22 hours and 0 minutes</h4>
+
+            </div> -->
+
+
+        </div>
+
+
+    </div>
+
+
+
+    <script src="parser.js"></script>
+
+    <script src="main.js"></script>
+
+</body>
+
+
+
+
+</html>
